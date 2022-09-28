@@ -42,7 +42,7 @@ const CustomButton=(prop:customButton)=>{
                  sx={{borderRadius:50}}
                  style={{...prop.style}}
                  onClick={prop.click}
-                 data-Id={prop.dataId}
+                 data-id={prop.dataId}
              >{prop.text}{shape}</Button>
          );
 };
